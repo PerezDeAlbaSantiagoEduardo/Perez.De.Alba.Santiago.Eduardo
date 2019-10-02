@@ -1,0 +1,23 @@
+% Encoding: UTF-8
+
+@InBook{,
+  chapter   = {Capitulo 1},
+  pages     = {8},
+  title     = {Amplificadores de Potencia, Conceptos b·sicos},
+  publisher = {J. I. Huircan},
+  author    = {J. I. Huircan},
+  url       = {http://quidel.inele.ufro.cl/~jhuircan/PDF_CTOI/AmpPot20.pdf},
+}
+
+@InBook{950-43-8755-1,
+  chapter   = {5},
+  pages     = {127 paginas},
+  title     = {Tecnicas de diseño de amplificadores en microondas},
+  publisher = {Editorial Hispano Americana},
+  year      = {1999},
+  author    = {José Alberto Brava},
+  editor    = {SEDICI},
+  url       = {https://catedra.ing.unlp.edu.ar/electrotecnia/sistcom/Amplificadores/Capitulo5.pdf},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

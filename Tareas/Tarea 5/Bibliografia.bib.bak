@@ -1,0 +1,27 @@
+% Encoding: UTF-8
+
+@Article{,
+  author  = {Sergio R. Tirado P.},
+  title   = {Motores de corriente directa (C.D.)},
+  journal = {DEPARTAMENTO DE ELECTRICIDAD MANTENIMIENTO ELÉCTRICO},
+  year    = {agosto de 2009},
+  url     = {https://www.monografias.com/trabajos74/motores-corriente-directa/motores-corriente-directa2.shtml},
+}
+
+@Article{,
+  author  = {Sayontan Sinha},
+  title   = {Motor CC – Motor de corriente continua},
+  journal = {Electrónica Unicrom},
+  year    = {2016},
+  url     = {https://unicrom.com/motor-cc-motor-de-corriente-continua/},
+}
+
+@Article{,
+  author  = {José Antonio E. García Álvarez},
+  title   = {ASÍ FUNCIONA EL MOTOR DE CORRIENTE DIRECTA O CONTINUA},
+  journal = {Asifunciona},
+  year    = {2015},
+  url     = {http://www.asifunciona.com/electrotecnia/af_motor_cd/af_motor_cd_6.htm},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.9.18)  18 OCT 2019 22:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.9.18)  25 OCT 2019 22:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1871,22 +1871,53 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 \item \large
+                  Carrera: Ingeniería en Mecatrónica.\\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 \item \large
+                  Curso: Sep-Dic 2019.\\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 \item \large
+                  Fecha: 25 de octubre del 2019.\\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 35--36
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
@@ -1896,46 +1927,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--38
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
 
- []
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 \item M
+            orán Garabito Carlos Enrique.\\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.40 \end{itemize}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 \item V
+            ázquez Alcaraz Laura Eugenia.}\\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Too many }'s.
+l.40 \item Vázquez Alcaraz Laura Eugenia.}
+                                           \\
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
-
- []
-
-! Too many }'s.
-l.50 Vazquez Alcaraz Laura Eugenia.}
-                                    
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
+! Missing } inserted.
+<inserted text> 
+                }
+l.50 \end{itemize}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 [1
 
@@ -1944,103 +1989,119 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
 
-[2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 113--115
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--118
-
- []
-
-[4] <Fuente.jpeg, id=20, 553.06625pt x 244.915pt>
-File: Fuente.jpeg Graphic file (type jpg)
- <use Fuente.jpeg>
-Package pdftex.def Info: Fuente.jpeg used on input line 132.
-(pdftex.def)             Requested size: 341.43306pt x 151.19547pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--152
-
- []
-
-[5 <./Fuente.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
-
- []
-
-LaTeX Font Info:    Try loading font information for FML+futmi on input line 15
-5.
-(/usr/share/texlive/texmf-dist/tex/latex/fourier/fmlfutmi.fd
+[2] [3] [4]
+LaTeX Font Info:    Try loading font information for FML+futmi on input line 12
+9.
+ (/usr/share/texlive/texmf-dist/tex/latex/fourier/fmlfutmi.fd
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 155.
+(Font)              scaled to size 11.03998pt on input line 129.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 155.
+(Font)              scaled to size 8.27998pt on input line 129.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 155.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 155.
+(Font)              scaled to size 6.43999pt on input line 129.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 129.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+jkpmia on input line 155
+LaTeX Font Info:    Try loading font information for U+jkpmia on input line 129
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpmia.fd
 File: ujkpmia.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+jkpsya on input line 155
+LaTeX Font Info:    Try loading font information for U+jkpsya on input line 129
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpsya.fd
 File: ujkpsya.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+jkpsyb on input line 155
+LaTeX Font Info:    Try loading font information for U+jkpsyb on input line 129
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpsyb.fd
 File: ujkpsyb.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 155
+LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 129
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 155.
+(Font)              scaled to size 11.03998pt on input line 129.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 155.
+(Font)              scaled to size 8.27998pt on input line 129.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 155.
-LaTeX Font Info:    Try loading font information for TS1+futs on input line 158
-.
+(Font)              scaled to size 6.43999pt on input line 129.
 
-(/usr/share/texlive/texmf-dist/tex/latex/fourier/ts1futs.fd
-File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 157--159
+Underfull \hbox (badness 4805) in paragraph at lines 134--135
+[]\T1/futs/m/n/12 La ma-te-ria de in-gles es im-por-tan-te
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--147
 
  []
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 160.
+Underfull \hbox (badness 10000) in paragraph at lines 129--147
+
+ []
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 160.
+Underfull \hbox (badness 1062) in paragraph at lines 164--165
+\T1/futs/m/n/12 du-ran-te el pro-ce-so de rea-li-za-ci�n del
+ []
+
+<Fuente.jpeg, id=20, 477.785pt x 209.78375pt>
+File: Fuente.jpeg Graphic file (type jpg)
+ <use Fuente.jpeg>
+Package pdftex.def Info: Fuente.jpeg used on input line 172.
+(pdftex.def)             Requested size: 341.43306pt x 149.9142pt.
+ [5]
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
+
+ []
+
+[6 <./Fuente.jpeg>]
+LaTeX Font Info:    Try loading font information for TS1+futs on input line 199
+.
+ (/usr/share/texlive/texmf-dist/tex/latex/fourier/ts1futs.fd
+File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 198--200
+
+ []
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 201.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 201.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.164 Simplificando \pi
+l.205 Simplificando \pi
                         queda:\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2048,212 +2109,189 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.165 
+l.206 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--178
+Underfull \hbox (badness 10000) in paragraph at lines 217--219
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--183
-
- []
-
-[6]
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 184.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 184.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 186--187
+Underfull \hbox (badness 10000) in paragraph at lines 222--224
 
  []
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 188.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 225.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 188.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 225.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--195
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--199
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--201
+LaTeX Warning: Command \textdegree invalid in math mode on input line 229.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 229.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--203
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--216
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 219--220
+Underfull \hbox (badness 10000) in paragraph at lines 235--238
 
  []
 
-<DefinicionTareas/4.png, id=34, 731.73375pt x 363.60844pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--240
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--242
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--255
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
+
+ []
+
+[8] <DefinicionTareas/4.png, id=37, 731.73375pt x 363.60844pt>
 File: DefinicionTareas/4.png Graphic file (type png)
 
 <use DefinicionTareas/4.png>
-Package pdftex.def Info: DefinicionTareas/4.png used on input line 230.
+Package pdftex.def Info: DefinicionTareas/4.png used on input line 269.
 (pdftex.def)             Requested size: 426.79134pt x 212.08035pt.
 
-<DefinicionTareas/5.png, id=35, 821.31844pt x 331.99031pt>
+<DefinicionTareas/5.png, id=38, 821.31844pt x 331.99031pt>
 File: DefinicionTareas/5.png Graphic file (type png)
 
 <use DefinicionTareas/5.png>
-Package pdftex.def Info: DefinicionTareas/5.png used on input line 231.
+Package pdftex.def Info: DefinicionTareas/5.png used on input line 270.
 (pdftex.def)             Requested size: 426.79134pt x 172.51436pt.
 
-<DefinicionTareas/6.png, id=36, 734.745pt x 134.75343pt>
+<DefinicionTareas/6.png, id=39, 734.745pt x 134.75343pt>
 File: DefinicionTareas/6.png Graphic file (type png)
 
 <use DefinicionTareas/6.png>
-Package pdftex.def Info: DefinicionTareas/6.png used on input line 232.
+Package pdftex.def Info: DefinicionTareas/6.png used on input line 271.
 (pdftex.def)             Requested size: 426.79134pt x 78.27629pt.
- [8 <./DefinicionTareas/4.png>]
-<Esquema1.png, id=41, 636.12656pt x 311.66437pt>
+ [9 <./DefinicionTareas/4.png> <./DefinicionTareas/5.png> <./DefinicionTareas/6
+.png>]
+<Esquema1.png, id=46, 636.12656pt x 311.66437pt>
 File: Esquema1.png Graphic file (type png)
  <use Esquema1.png>
-Package pdftex.def Info: Esquema1.png used on input line 240.
+Package pdftex.def Info: Esquema1.png used on input line 280.
 (pdftex.def)             Requested size: 369.88582pt x 181.22198pt.
 
-<Esquema2.png, id=42, 639.89063pt x 344.78813pt>
+<Esquema2.png, id=47, 639.89063pt x 344.78813pt>
 File: Esquema2.png Graphic file (type png)
  <use Esquema2.png>
-Package pdftex.def Info: Esquema2.png used on input line 241.
+Package pdftex.def Info: Esquema2.png used on input line 281.
 (pdftex.def)             Requested size: 369.88582pt x 199.30383pt.
 
-<Esquema3.png, id=43, 637.63219pt x 296.60812pt>
+<Esquema3.png, id=48, 637.63219pt x 296.60812pt>
 File: Esquema3.png Graphic file (type png)
  <use Esquema3.png>
-Package pdftex.def Info: Esquema3.png used on input line 242.
+Package pdftex.def Info: Esquema3.png used on input line 282.
 (pdftex.def)             Requested size: 369.88582pt x 172.05998pt.
- [9 <./DefinicionTareas/5.png> <./DefinicionTareas/6.png> <./Esquema1.png> <./E
-squema2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 251--252
+ [10 <./Esquema1.png> <./Esquema2.png> <./Esquema3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 299--304
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
+Underfull \hbox (badness 10000) in paragraph at lines 307--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
+Underfull \hbox (badness 10000) in paragraph at lines 309--311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
+Underfull \hbox (badness 10000) in paragraph at lines 322--326
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--264
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 338--340
 
  []
 
-[10 <./Esquema3.png>] <Proto.jpeg, id=55, 416.55624pt x 645.41125pt>
+<Proto.jpeg, id=58, 416.55624pt x 645.41125pt>
 File: Proto.jpeg Graphic file (type jpg)
-
-<use Proto.jpeg>
-Package pdftex.def Info: Proto.jpeg used on input line 314.
+ <use Proto.jpeg>
+Package pdftex.def Info: Proto.jpeg used on input line 384.
 (pdftex.def)             Requested size: 170.71652pt x 264.512pt.
- [11]
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 319.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 319.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 319.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 319.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 319.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 319.
-
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
-[]\T1/futs/m/n/10 Se uti-li-za-ran mi-cro-con-tro-la-do-res
- []
-
-
-Underfull \hbox (badness 2662) in paragraph at lines 323--323
-\T1/futs/m/n/10 pa-ra de-pu-rar-la CPU prin-ci-pal de
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[12 <./Proto.jpeg>] (./Segundo Avance.bbl) [13] (./Segundo Avance.aux
+ [12] [13 <./Proto.jpeg>] (./Segundo Avance.bbl) [14] (./Segundo Avance.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 6189 strings out of 493029
- 79213 string characters out of 6136234
- 147326 words of memory out of 5000000
- 9542 multiletter control sequences out of 15000+600000
- 90014 words of font info for 117 fonts, out of 8000000 for 9000
+ 6155 strings out of 493029
+ 78768 string characters out of 6136234
+ 144270 words of memory out of 5000000
+ 9510 multiletter control sequences out of 15000+600000
+ 66251 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,10n,30p,1088b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,8n,30p,1050b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/adobe/utopia/putb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/ut
 opia/putri8a.pfb>
-Output written on "Segundo Avance.pdf" (13 pages, 448995 bytes).
+Output written on "Segundo Avance.pdf" (14 pages, 448019 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 88 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

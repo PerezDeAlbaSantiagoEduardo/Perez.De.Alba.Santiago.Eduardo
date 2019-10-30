@@ -1,0 +1,108 @@
+\documentclass[14pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{times}
+\usepackage[left=3cm,top=2.5cm,bottom=2.5cm,right=2.5cm]{geometry}
+\usepackage{graphicx}
+\author{Perez de Alba Santiago Eduardo.}
+
+\begin{document}
+\begin{center}
+
+\LARGE \textbf{Universidad Politecnica de la Zona Metropoilitana de Guadalajara\\}
+
+\includegraphics[scale=1]{Upzmg.png} 
+
+\large \textbf{EV\_ 2\_ 8 Calcular los parametros de circuitos de activación de transistores de potencia.}
+
+\end{center}
+
+\vspace{1cm}
+\large \textbf{Nombre: Perez de Alba Santiago Eduardo.\\
+\vspace{0.5cm} Carrera: Ingeniería en Mecatronica.\\
+\vspace{0.5cm} Materia: Sistemas Electrónicos de Interfaz.\\
+\vspace{0.5cm} Curso: Septiembre-Noviembre del 2019.\\
+\vspace{0.5cm} Docente: Moran Garabito Carlos Enrique.}\\
+\vspace{0.5cm}
+\small \textbf{29 de Octubre del 2019}
+
+
+\newpage
+\section{Transistor de potencia como Interruptor:}
+El funcionamiento y utilización de los transistores de potencia es idéntico al de los transistores normales, teniendo como características especiales las altas tensiones e intensidades que tiene que soportar las altas potencias a disipar.
+
+\
+Existen tres tipos de transistores de potencia:
+\begin{itemize}
+\item Bipolar
+\item Unipolar o FET(Transistor de Efecto de Campo)
+\item IGBT
+\end{itemize}
+
+\
+Estos tipos de transistores pueden operar como un interruptor mecánico, con limitaciones respecto a un conmutador ideal. Estas limitaciones, restricciones para algunas aplicaciones por lo que debemos conocer las características y especificaciones de estos dispositivos para su adecuación al uso que se le va a dar.
+
+\
+Un transistor se usa para cambiar la operación de apertura o cierre de un circuito. Este tipo de conmutación de estado solido ofrece una fiabilidad significativa. Los transistores NPN y PNP se pueden usar como conmutadores.
+
+\
+\section{Cálculos:}
+\
+\subsection{TIP41C:}
+\begin{itemize}
+\item Transistor NPN
+\item $I_c$ max: 6A
+\item $I_c$ pico max: 10A ($t_p$<5ms)
+\item $I_B$ max: 3A
+\item $P_{TOT}$: 65W
+\item $V_{CEO}$: 100V, $V_{CBO}$: 100V, $V_{EBO}$: 5V
+\item $h_{FE}$: 15 a 75 (@$I_C$=3A, $V_{CE}$=4V)
+\item Alta velocidad de switcheo
+\item Encapsulado: TO-220
+
+\end{itemize}
+
+\
+
+$$R=\frac{V}{Ib}$$
+\
+
+$$Ib=\frac{Ic}{h_{FE}(min)}$$
+
+\
+$$Ib=\frac{6A}{15}=0.4Ib$$
+\
+$$12-0.7=11.3V$$
+
+$$R=\frac{11.3}{0.4}=285.25$$
+\
+\subsection{Ejemplo:}
+\begin{itemize}
+\item Rb=30kohm
+\item Rc=0.7k ohm
+\item $V_{CC}$= 12V
+\item $\beta$ =125
+\item $V_i$=0v y 5v
+
+\end{itemize}
+
+\
+cuando VCE= 0
+$$I_c= \frac{V_{CC}}{R_C}$$
+$$I_c=\frac{12V}{0.7kohm}$$
+$$I_c= 17.1mA$$
+
+\
+$$Ib= \frac{Ic}{\beta}$$
+$$Ib=\frac{17.1mA}{125}$$
+$$Ib=0.1368A$$
+
+\
+Considerando que el voltaje de entrada aplicado es de 12V, la corriente base puede determinarse aplicando la ley de voltaje de Kirchhoff.
+
+\
+$$Ib=\frac{Vi-Vbe}{Rb}$$
+Para el transistor de silicio $Vbe=0.7v$\\ Por lo tanto, $Ib=\frac{12V-0.7V}{30kohm}= 0.000376A$
+\
+Por lo tanto la salida del colector llega a ser aproximadamente cero.
+\end{document}
